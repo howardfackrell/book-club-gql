@@ -7,3 +7,7 @@ CREATE TABLE books.book
    isbn       VARCHAR(100),
    page_count INTEGER
 );
+
+insert into books.book (title, isbn, page_count) values ('Tao of Pooh', '123', 98),
+                                                    ('Way of Kings', '999', 1000),
+                                                    ('Words of Radiance', '1000', 1200);
