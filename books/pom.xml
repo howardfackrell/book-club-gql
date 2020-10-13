@@ -17,6 +17,7 @@
 	<properties>
 		<java.version>15</java.version>
 		<com.graphql-java-kickstart.version>6.0.1</com.graphql-java-kickstart.version>
+		<graphql-java-tools.version>5.7.1</graphql-java-tools.version>
 	</properties>
 
 	<dependencies>
@@ -67,8 +68,8 @@
 		</dependency>
 		<dependency>
 			<groupId>com.graphql-java-kickstart</groupId>
-			<artifactId>graphql-spring-boot-starter</artifactId>
-			<version>${com.graphql-java-kickstart.version}</version>
+			<artifactId>graphql-java-tools</artifactId>
+			<version>${graphql-java-tools.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.graphql-java-kickstart</groupId>

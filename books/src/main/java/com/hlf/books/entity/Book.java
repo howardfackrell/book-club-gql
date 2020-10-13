@@ -1,6 +1,8 @@
 package com.hlf.books.entity;
 
 import lombok.Data;
+import lombok.Setter;
+import lombok.experimental.Accessors;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,6 +14,7 @@ import javax.persistence.Table;
 @Entity
 @Table(schema = "books", name = "book")
 @Data
+@Accessors(chain = true)
 public class Book {
 
   @Id

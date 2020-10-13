@@ -1,0 +1,14 @@
+
+scalar Long
+
+type Book {
+    title: String!
+}
+
+input BooksInput {
+    id: Long
+}
+
+type Query {
+    books(input: BooksInput!): [Book]!
+}
